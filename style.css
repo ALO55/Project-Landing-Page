@@ -2,7 +2,6 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction:  column;
-    justify-content: center;
     margin: 0;
 }
 
@@ -12,7 +11,6 @@ body {
     flex-direction: column;
     padding: 8px 200px 200px 200px;
     background: #1F2937;
-    
 }
 
 .helmet {
@@ -70,4 +68,77 @@ button {
 
 button.button1 {
     border: 1px solid #3882F6;
+}
+
+
+.boxes {
+    width: 300px;
+    height: 300px;
+}
+
+.pictures {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 40px  0;
+    text-align: center;
+}
+
+.containerm1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.containerm2 {
+    display: flex;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.containerm3 {
+    display: flex;
+    background: #3882F6;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60em;
+    height: 100px;
+    margin: 40px auto;
+}
+
+.boxtitle, .boxinformation {
+    color: #F9FAF8;
+}
+
+.boxtitle {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.button2 {
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 25px;
 }
