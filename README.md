@@ -17,3 +17,5 @@ Instagram: travellersboutique14
 Adventure bike: 
 Jakub Sisulak
 https://www.behance.net/jakub_sisulak
+
+Live preview of the webpage: https://alo55.github.io/webpage2/
